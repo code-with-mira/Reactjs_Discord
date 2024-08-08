@@ -22,7 +22,7 @@ function Nav1({ isActive }) {
 
   const logout = () => {
     localStorage.clear();
-   window.location.reload();
+ navigate('/register')
   };
   const auth = localStorage.getItem("user")
   const [open, setOpen] = useState(false);
