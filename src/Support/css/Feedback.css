@@ -1,0 +1,533 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-feedback{
+    overflow: hidden;
+}
+.fd-hr{
+    color: rgb(197, 194, 194);
+    margin-top: 0px;
+}
+.fd1-hr{
+     color: rgb(197, 194, 194);
+   
+}
+.feed-top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.feed-top p{
+    color: rgb(60, 92, 237);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#feedinput{
+    border: 0px;
+    background-color: rgb(241, 241, 241);
+    outline-color: rgb(65, 178, 219);
+    border-radius: 4px;
+    width: 280px;
+    height: 39px;
+    padding: 15px;
+    color: rgb(114, 112, 112);
+    font-size: 14px;
+}
+.community-topic{
+     color: rgb(60, 92, 237);
+      font-family: Ggsans, sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      margin-left: 17%;
+      margin-top: 10px;
+
+}
+.feed-row{
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 50px;
+}
+.feed-row-1{
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 0px; 
+}
+.community-1{
+    border: 1px solid rgb(235, 234, 234);
+    padding: 25px 15px;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+.community-1:hover{
+    background-color: #f5f6fa;
+}
+.community-1 h5{
+    color:  #5865f2;
+    font-weight: 600;
+    text-align: center;
+    font-size: 26px;
+
+    
+}
+.community-1 p{
+    color: rgb(70, 72, 73);
+    font-size: 13px;
+       font-family: Ggsans, sans-serif;
+       text-align: center;
+       font-weight: 500;
+       margin-top: 10px;
+}
+.feed-last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.feed-last p{
+    color: black;
+    font-weight: 600;
+    margin-top: 70px;
+    font-size: 14px;
+}
+.feed-last button{
+    background-color: #5865f2;
+    color: white;
+      font-family: Ggsans, sans-serif;
+      border-radius: 5px;
+      border: 0px;
+      padding: 10px 60px;
+      font-size: 11px;
+margin-top: 10px;
+    margin-bottom: 30px;
+}
+.feed-last button:hover{
+    background-color: #2534d9;
+}
+@media(max-width:500px){
+.fd-hr{
+    color: rgb(197, 194, 194);
+    margin-top: 0px;
+}
+.fd1-hr{
+     color: rgb(197, 194, 194);
+   
+}
+.feed-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-top: 10px;
+}
+.feed-top p{
+    color: rgb(60, 92, 237);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#feedinput{
+    border: 0px;
+    background-color: rgb(241, 241, 241);
+    outline-color: rgb(65, 178, 219);
+    border-radius: 4px;
+    width: 100%;
+    height: 39px;
+    padding: 15px;
+    color: rgb(114, 112, 112);
+    font-size: 14px;
+}
+.community-topic{
+     color: rgb(60, 92, 237);
+      font-family: Ggsans, sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      text-align: center;
+      margin-left: 0%;
+      margin-top: 10px;
+
+}
+.feed-row{
+    padding-left: 8% !important;
+    padding-right: 8% !important;
+    margin-top: 20px;
+}
+.feed-row-1{
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 0px; 
+}
+.community-1{
+    border: 1px solid rgb(235, 234, 234);
+width: 100% !important;
+height: auto;
+padding: 15px;
+    margin-top: 15px;
+    margin-left: 5%;
+    cursor: pointer;
+
+}
+
+.community-1 h5{
+    color:  #5865f2;
+    font-weight: 600;
+    text-align: center;
+    font-size: 23px;
+
+    
+}
+.community-1 p{
+    color: rgb(70, 72, 73);
+    font-size: 13px;
+       font-family: Ggsans, sans-serif;
+       text-align: center;
+       font-weight: 500;
+       margin-top: 10px;
+}
+.feed-last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.feed-last p{
+    color: black;
+    font-weight: 600;
+    margin-top: 70px;
+    font-size: 14px;
+}
+.feed-last button{
+    background-color: #5865f2;
+    color: white;
+      font-family: Ggsans, sans-serif;
+      border-radius: 5px;
+      border: 0px;
+      padding: 10px 60px;
+      font-size: 11px;
+margin-top: 10px;
+    margin-bottom: 30px;
+}
+}
+@media(min-width:501px) and (max-width:767px){
+
+.fd-hr{
+    color: rgb(197, 194, 194);
+    margin-top: 0px;
+}
+.fd1-hr{
+     color: rgb(197, 194, 194);
+   
+}
+.feed-top{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-top: 10px;
+}
+.feed-top p{
+    color: rgb(60, 92, 237);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#feedinput{
+    border: 0px;
+    background-color: rgb(241, 241, 241);
+    outline-color: rgb(65, 178, 219);
+    border-radius: 4px;
+    width: 40%;
+    height: 39px;
+    padding: 15px;
+    color: rgb(114, 112, 112);
+    font-size: 14px;
+}
+.community-topic{
+     color: rgb(60, 92, 237);
+      font-family: Ggsans, sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      text-align: center;
+      margin-left: 0%;
+      margin-top: 10px;
+
+}
+.feed-row{
+    padding-left: 8% !important;
+    padding-right: 8% !important;
+    margin-top: 20px;
+}
+.feed-row-1{
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 0px; 
+}
+.community-1{
+    border: 1px solid rgb(235, 234, 234);
+width: 70% !important;
+height: auto;
+padding: 15px;
+    margin-top: 15px;
+    margin-left: 20%;
+    cursor: pointer;
+
+}
+
+.community-1 h5{
+    color:  #5865f2;
+    font-weight: 600;
+    text-align: center;
+    font-size: 23px;
+
+    
+}
+.community-1 p{
+    color: rgb(70, 72, 73);
+    font-size: 13px;
+       font-family: Ggsans, sans-serif;
+       text-align: center;
+       font-weight: 500;
+       margin-top: 10px;
+}
+.feed-last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.feed-last p{
+    color: black;
+    font-weight: 600;
+    margin-top: 70px;
+    font-size: 14px;
+}
+.feed-last button{
+    background-color: #5865f2;
+    color: white;
+      font-family: Ggsans, sans-serif;
+      border-radius: 5px;
+      border: 0px;
+      padding: 10px 60px;
+      font-size: 11px;
+margin-top: 10px;
+    margin-bottom: 30px;
+}
+}
+@media(min-width:768px) and (max-width:991px){
+
+
+.fd-hr{
+    color: rgb(197, 194, 194);
+    margin-top: 0px;
+}
+.fd1-hr{
+     color: rgb(197, 194, 194);
+   
+}
+.feed-top{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-top: 10px;
+}
+.feed-top p{
+    color: rgb(60, 92, 237);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#feedinput{
+    border: 0px;
+    background-color: rgb(241, 241, 241);
+    outline-color: rgb(65, 178, 219);
+    border-radius: 4px;
+    width: 40%;
+    height: 39px;
+    padding: 15px;
+    color: rgb(114, 112, 112);
+    font-size: 14px;
+}
+.community-topic{
+     color: rgb(60, 92, 237);
+      font-family: Ggsans, sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      text-align: center;
+      margin-left: 0%;
+      margin-top: 10px;
+
+}
+.feed-row{
+    padding-left: 8% !important;
+    padding-right: 8% !important;
+    margin-top: 20px;
+}
+.feed-row-1{
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 0px; 
+}
+.community-1{
+    border: 1px solid rgb(235, 234, 234);
+width: 100% !important;
+height: auto;
+padding: 15px;
+    margin-top: 15px;
+    margin-left: 0%;
+    cursor: pointer;
+
+}
+
+.community-1 h5{
+    color:  #5865f2;
+    font-weight: 600;
+    text-align: center;
+    font-size: 23px;
+
+    
+}
+.community-1 p{
+    color: rgb(70, 72, 73);
+    font-size: 13px;
+       font-family: Ggsans, sans-serif;
+       text-align: center;
+       font-weight: 500;
+       margin-top: 10px;
+}
+.feed-last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.feed-last p{
+    color: black;
+    font-weight: 600;
+    margin-top: 70px;
+    font-size: 14px;
+}
+.feed-last button{
+    background-color: #5865f2;
+    color: white;
+      font-family: Ggsans, sans-serif;
+      border-radius: 5px;
+      border: 0px;
+      padding: 10px 60px;
+      font-size: 11px;
+margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+}
+@media(min-width:992px) and (max-width:1200px){
+
+
+.fd-hr{
+    color: rgb(197, 194, 194);
+    margin-top: 0px;
+}
+.fd1-hr{
+     color: rgb(197, 194, 194);
+   
+}
+.feed-top{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-top: 10px;
+}
+.feed-top p{
+    color: rgb(60, 92, 237);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#feedinput{
+    border: 0px;
+    background-color: rgb(241, 241, 241);
+    outline-color: rgb(65, 178, 219);
+    border-radius: 4px;
+    width: 40%;
+    height: 39px;
+    padding: 15px;
+    color: rgb(114, 112, 112);
+    font-size: 14px;
+}
+.community-topic{
+     color: rgb(60, 92, 237);
+      font-family: Ggsans, sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      text-align: center;
+      margin-left: 0%;
+      margin-top: 10px;
+
+}
+.feed-row{
+    padding-left: 8% !important;
+    padding-right: 8% !important;
+    margin-top: 20px;
+}
+.feed-row-1{
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 0px; 
+}
+.community-1{
+    border: 1px solid rgb(235, 234, 234);
+width: 100% !important;
+height: auto;
+padding: 15px;
+    margin-top: 15px;
+    margin-left: 0%;
+    cursor: pointer;
+
+}
+
+.community-1 h5{
+    color:  #5865f2;
+    font-weight: 600;
+    text-align: center;
+    font-size: 23px;
+
+    
+}
+.community-1 p{
+    color: rgb(70, 72, 73);
+    font-size: 13px;
+       font-family: Ggsans, sans-serif;
+       text-align: center;
+       font-weight: 500;
+       margin-top: 10px;
+}
+.feed-last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.feed-last p{
+    color: black;
+    font-weight: 600;
+    margin-top: 70px;
+    font-size: 14px;
+}
+.feed-last button{
+    background-color: #5865f2;
+    color: white;
+      font-family: Ggsans, sans-serif;
+      border-radius: 5px;
+      border: 0px;
+      padding: 10px 60px;
+      font-size: 11px;
+margin-top: 10px;
+    margin-bottom: 30px;
+}
+}

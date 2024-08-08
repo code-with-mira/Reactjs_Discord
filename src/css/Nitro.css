@@ -1,0 +1,2336 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ .main-nitro{
+     overflow: hidden; 
+} 
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.background-video {
+  position: absolute;
+  top: 65%;
+  left: 55%;
+  width: 116%;
+  height: 130%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1; 
+
+}
+
+.video-content {
+  position: relative;
+  z-index: 1;
+ }
+.un-head{
+      color: white;
+    font-weight: bold; 
+    font-size: 56px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    margin-top: 90px;
+    text-rendering: optimizeLegibility;
+}
+.un-para{
+    color: white ;
+    font-family: Ggsans, sans-serif;
+    font-size: 18px;
+}
+.un-main{
+    width: 350px;
+    margin-left: 150px;
+    margin-top: 120px;
+}
+.nitro-card{
+ background-image:  linear-gradient(225deg,#007cc2 20%,#5865f2);
+    width: 550px;
+    height: 390px;
+    border-radius: 8px;
+    z-index: 1;
+    position: relative;
+   top: -160px;
+   padding: 20px;
+   padding-left: 30px;
+}
+.nitro-row{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.nitro-card h2 ,.nitro-card-2 h2{
+    color: white;
+      font-family: Ggsans, sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-style: italic;
+}
+.nitro-card-2{
+     background-image: linear-gradient(135deg,#8547c6 25%,#b845c1 62%,#ab5d8a 95%);
+    width: 550px;
+    height: 390px;
+    border-radius: 8px;
+    z-index: 1;
+    position: relative;
+   top: -160px;
+   padding: 20px;
+   padding-left: 30px;
+}
+.nitro-card-dv{
+    color: white;
+    font-size: 18px;
+      font-family: Ggsans, sans-serif;
+      margin-top: 10px;    
+     
+}
+.nitro-card button{
+    border: 0px;
+    width: 100%;
+    height: 45px;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+   margin-top: 110px;
+}
+.nitro-card-2 button{
+      border: 0px;
+    width: 100%;
+    height: 45px;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+   margin-top: 40px;
+}
+ .nitro-card-2 button:hover{
+    background-color: white;
+    color: #5865f2;
+}
+.nitro-card button:hover{
+    background-color: white;
+    color: #5865f2;
+}
+.popular-head{
+    color:#1c1d1d;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+.ni-card{
+     background-color: rgb(246, 245, 244);
+    border: 0px;
+    border-radius: 10px;
+    padding: 30px;
+    width: 550px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.ni-card h3{
+    text-align: center;
+   text-rendering: optimizeLegibility;
+     font-family: Ggsans, sans-serif;
+     margin-left: 30px;
+     margin-right: 30px;
+  font-weight:bold;
+ font-size:x-large;
+}
+.ni-card img{
+    margin-top: 15px;
+}
+.nitro-row-2{
+     padding-left: 80px;
+    padding-right: 80px; 
+    margin-top: 15px;
+}
+.ni-card-1{
+     background-color: rgb(246, 245, 244);
+    border: 0px;
+    border-radius: 10px;
+    padding: 30px;
+    width: 365px;
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nitro-row-3{
+     padding-left: 187px;
+    padding-right: 187px; 
+    margin-top: 15px; 
+}
+.ni-card-1 h4{
+ text-align: center;
+   text-rendering: optimizeLegibility;
+     font-family: Ggsans, sans-serif;
+  font-weight:bold;
+ font-size:x-large;
+ margin-top: 10px;
+}
+.ni-card-1 p{
+    text-align: center;
+     font-family: Ggsans, sans-serif;
+     font-size: 14px;
+     margin-left: 40px;
+     margin-right: 40px;
+
+}
+.show-perk{
+    margin-top: 20px;
+    background-color: #1c1d1d;
+    color: white;
+       font-family: Ggsans, sans-serif;
+       border: 0px;
+       border-radius: 30px;
+       padding: 12px 20px ;
+       font-weight: 600;
+       margin-bottom: 20px;
+       transition: 0.4s;
+}
+    .show-perk:hover{
+        background-color: #323333;
+       box-shadow: 0px 2px 0px #b4b5b5;
+   
+    }
+    .nitro-table{
+        background-color: rgb(246,245,244);
+        padding: 50px;
+         padding-left: 80px;
+        padding-right: 80px; 
+border-radius: 15px;
+height: auto;
+margin-bottom: 10px;
+    }
+    .nitro-row-4{
+        padding-left: 80px;
+        padding-right: 80px;
+        margin-top: 80px;
+    }
+   .nitro-table h1{
+    color: #353838;
+    font-weight:bolder;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    margin-top: 20px;
+    margin-bottom: 70px;
+   }
+   .nitro-feat{
+    color: #1c1d1d;
+    font-size: 20px;
+    font-weight: bold;
+   }
+   .nitro-basic-pic{
+    width: 80px;
+   
+   }
+    .nitro-pic{
+        width: 80px;
+        margin-top: -4px;
+    }
+    .tbl-content{
+        display: flex;
+        justify-content: space-between;
+    }
+    .content-p{
+       width: 60%;
+    }
+    .content-p-1{
+        width: 15%;
+        text-align: center;
+    }
+    .content-p-2{
+         width: 15%;
+        text-align: center;
+      
+    }
+    .design{
+        font-size: 17px;
+        color: #323333;
+    }.nt-btn{
+        border: 0px;
+        border-radius: 25px;
+        padding: 10px 32px;
+        background-color:#3e4ceb;
+        color: white;
+        font-size: 11px;
+        font-weight: 600;
+    }
+    .ask-head{
+        color: #1c1d1d;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 20px;
+        
+    }
+    .nitro-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .nitro-subitem{ 
+         margin: 15px;
+        color: #323333;
+        font-size: 15px;
+        cursor: pointer;
+            font-family: Ggsans, sans-serif;
+    }
+     .nitro-subitem-1{ 
+         margin: 15px;
+        color:#3e4ceb;
+        font-size: 15px;
+        cursor: pointer;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #3e4ceb;
+        font-weight: 600;
+            font-family: Ggsans, sans-serif;
+    }
+
+    .accordn{
+        width: 80%;
+        margin-top: 25px;
+        height: auto;
+        padding: 25px;
+   background-color: rgb(246, 245, 244);
+        border-radius: 10px;
+        font-weight: 600;
+cursor: pointer;
+font-size: 17px;
+    }
+    .accordn-1{
+        width: 80%;
+          margin-top: 25px;
+        height: auto;
+        padding: 25px;
+    background-color: rgb(88, 101, 242);
+        border-radius: 10px;
+        font-weight: 600;
+        color: white;
+cursor: pointer;
+
+    }
+    .acc-content{
+        color: white;
+        font-size: 15px !important;
+        font-weight: 400 !important;
+            font-family: Ggsans, sans-serif;
+    }
+    .nitro-row-5{
+        margin-bottom: 60px;
+    }
+    .nitro-bck{
+        background-image: url(https://assets-global.website-files.com/6257ade…/6347d64…_Group%20482478.svg), linear-gradient(135deg, #8547c6 10%, #b845c1 50%, #ab5d8a);
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+       
+    }
+    .bck-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .bck-content h1{
+        color: white;
+        font-family: Ggsans, sans-serif;
+        font-weight: bold;
+        text-rendering: optimizeLegibility;
+    }
+    .bck-content button{
+        background-color: white;
+        border: 0px;
+        border-radius: 33px;
+        padding: 15px 45px ;
+        color: black;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+
+
+
+
+    @media(max-width:300px){
+.background-video {
+  position: absolute;
+  top: 44%;
+  left: 20%;
+  width: 166%;
+  height: 100%;
+  object-fit: cover;
+   transform: translate(-50%, -50%); 
+  z-index: -1; 
+
+}
+
+.video-content {
+  position: relative;
+  z-index: 1;
+ }
+.un-head{
+      color: white;
+    font-weight: bold; 
+    font-size: 35px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    margin-top: 230px;
+    text-rendering: optimizeLegibility;
+    text-align: center;
+    margin-left: 45px;
+    margin-right: 85px;
+}
+.un-para{
+    color: white;
+    font-family: Ggsans, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 65px;
+    margin-left: 10px;
+}
+.un-main{
+    width: 350px;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.nitro-card{
+ background-image:  linear-gradient(225deg,#007cc2 20%,#5865f2);
+    width: 90%;
+    height: auto;
+    border-radius: 8px;
+  margin-top: -30px;
+    position: relative;
+   top: 0px;
+   margin-left: 5%;
+   padding:20px;
+   padding-left: 30px;
+   margin-bottom: 10px;
+}
+.nitro-row{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.nitro-card h2 ,.nitro-card-2 h2{
+    color: white;
+      font-family: Ggsans, sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-style: italic;
+}
+.nitro-card-2{
+     background-image: linear-gradient(135deg,#8547c6 25%,#b845c1 62%,#ab5d8a 95%);
+    width: 90%;
+    height: auto;
+    border-radius: 8px;
+  
+    position: relative;
+   top: 0px;
+   padding: 20px;
+   padding-left: 30px;
+   margin-left: 5%;
+   margin-top: 10px;
+}
+.nitro-card-dv{
+    color: white;
+    font-size: 18px;
+      font-family: Ggsans, sans-serif;
+      margin-top: 10px;    
+     
+}
+
+.nitro-card button{
+    border: 0px;
+    width: 100%;
+    height: 45px;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+   margin-top: 50px;
+}
+.nitro-card-2 button{
+      border: 0px;
+    width: 100%;
+    height: 45px;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+   margin-top: 40px;
+}
+
+.popular-head{
+    color:#1c1d1d;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: -60px;
+    font-size: 28px;
+
+}
+.ni-card{
+     background-color: rgb(246, 245, 244);
+    border: 0px;
+    border-radius: 10px;
+    padding: 30px;
+  margin-bottom: 10px;
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 23px;
+    padding-bottom: 35px;
+
+}
+.ni-card h3{
+    text-align: center;
+   text-rendering: optimizeLegibility;
+     font-family: Ggsans, sans-serif;
+     margin-left: 0px;
+     margin-right: 0px;
+  font-weight:bold;
+ font-size:x-large;
+ font-size: 20px;
+}
+.ni-card img{
+    margin-top: 15px;
+    width: 100%;
+}
+.nitro-row-2{
+     padding-left: 0px;
+    padding-right: 0px; 
+    margin-top: 15px;
+}
+.ni-card-1{
+     background-color: rgb(246, 245, 244);
+    border: 0px;
+    border-radius: 10px;
+    padding: 30px;
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-bottom: 15px;
+}
+.nitro-row-3{
+     padding-left: 0px;
+    padding-right: 0px; 
+    margin-top: 0px; 
+}
+.ni-card-1 h4{
+ text-align: center;
+   text-rendering: optimizeLegibility;
+     font-family: Ggsans, sans-serif;
+  font-weight:bold;
+ font-size:x-large;
+ margin-top: 14px;
+ font-size: 18px;
+
+}
+.ni-card-1 p{
+    text-align: center;
+     font-family: Ggsans, sans-serif;
+     font-size: 13px;
+     margin-left: 5px;
+     margin-right: 5px;
+
+}
+.show-perk{
+    margin-top: 20px;
+    background-color: #1c1d1d;
+    color: white;
+       font-family: Ggsans, sans-serif;
+       border: 0px;
+       border-radius: 30px;
+       padding: 12px 20px ;
+       font-weight: 600;
+       margin-bottom: 20px;
+       transition: 0.4s;
+}
+   
+    .nitro-table{
+        background-color: rgb(246,245,244);
+        padding: 10px;
+         padding-left: 0px;
+        padding-right: 0px; 
+border-radius: 15px;
+height: auto;
+margin-bottom: 10px;
+padding-bottom: 20px;
+
+    }
+    .nitro-row-4{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 40px;
+    }
+   .nitro-table h1{
+    color: #353838;
+    font-weight:bolder;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    font-size: 19px;
+   }
+   .nitro-feat{
+    color: #1c1d1d;
+    font-size: 13px;
+    font-weight: bold;
+
+   }
+   .nitro-basic-pic{
+    width: 30px;
+   
+   }
+    .nitro-pic{
+        width: 30px;
+        margin-top: -4px;
+    }
+    .tbl-content{
+        display: flex;
+       
+    }
+    .content-p{
+       width: 60%;
+       margin-left: 12px;
+       
+    }
+    .content-p-1{
+        width: 15%;
+        text-align: center;
+       ;
+    }
+    .content-p-2{
+         width: 15%;
+        text-align: center;
+        margin-right: 12px;
+      
+    }
+    .design{
+        font-size: 13px;
+        color: #323333;
+    }
+    .design-1{
+        font-size: 9px !important;
+    }
+    
+    .nt-btn{
+        border: 0px;
+        border-radius: 25px;
+      padding: 5px 10px;
+        background-color:#3e4ceb;
+        color: white;
+        font-size: 8px;
+        font-weight: 600;
+        margin-left: -130px;
+        margin-right: 10px;
+    }
+    .ntt{
+        margin-left: -50px;
+    }
+    .ask-head{
+        color: #1c1d1d;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 20px;
+        font-size: 29px;
+        
+    }
+    .nitro-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .nitro-subitem{ 
+         margin: 7px;
+        color: #323333;
+        font-size: 9px;
+        cursor: pointer;
+            font-family: Ggsans, sans-serif;
+    }
+     .nitro-subitem-1{ 
+         margin: 7px;
+        color:#3e4ceb;
+        font-size: 9px;
+        cursor: pointer;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #3e4ceb;
+        font-weight: 600;
+            font-family: Ggsans, sans-serif;
+    }
+
+    .accordn{
+        width: 90%;
+        margin-top: 25px;
+        height: auto;
+        padding: 17px;
+   background-color: rgb(246, 245, 244);
+        border-radius: 10px;
+        font-weight: 600;
+cursor: pointer;
+font-size: 14px;
+    }
+    .accordn-1{
+        width: 90%;
+          margin-top: 25px;
+        height: auto;
+        padding: 17px;
+    background-color: rgb(88, 101, 242);
+        border-radius: 10px;
+        font-weight: 600;
+        color: white;
+cursor: pointer;
+
+    }
+    .acc-content{
+        color: white;
+        font-size: 13px !important;
+        font-weight: 400 !important;
+            font-family: Ggsans, sans-serif;
+    }
+    .nitro-row-5{
+        margin-bottom: 60px;
+    }
+    .nitro-bck{
+        background-image: url(https://assets-global.website-files.com/6257ade…/6347d64…_Group%20482478.svg), linear-gradient(135deg, #8547c6 10%, #b845c1 50%, #ab5d8a);
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        background-size: cover;
+        object-fit: cover;
+       
+    }
+    .bck-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .bck-content h1{
+        color: white;
+        font-family: Ggsans, sans-serif;
+        font-weight: bold;
+        text-rendering: optimizeLegibility;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .bck-content button{
+        background-color: white;
+        border: 0px;
+        border-radius: 33px;
+        padding: 9px 25px ;
+        color: black;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+.bck-pic{
+    display: none;
+}
+
+
+    }
+
+    @media(min-width:301px) and (max-width:500px){
+.background-video {
+  position: absolute;
+  top: 44%;
+  left: 24%;
+  width: 166%;
+  height: 100%;
+  object-fit: cover;
+   transform: translate(-50%, -50%); 
+  z-index: -1; 
+
+}
+
+.video-content {
+  position: relative;
+  z-index: 1;
+ }
+.un-head{
+      color: white;
+    font-weight: bold; 
+    font-size: 27px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    margin-top: 240px;
+    text-rendering: optimizeLegibility;
+     margin-left: 10%;
+     text-align: center;
+    margin-right: 10%; 
+}
+.un-para{
+    color: white;
+    font-family: Ggsans, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.un-main{
+    width: auto;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.nitro-card{
+ background-image:  linear-gradient(225deg,#007cc2 20%,#5865f2);
+    width: 90%;
+    height: auto;
+    border-radius: 8px;
+ 
+    position: relative;
+   top: 0px;
+   margin-left: 5%;
+   padding:20px;
+   padding-left: 30px;
+   margin-bottom: 10px;
+}
+.nitro-row{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.nitro-card h2 ,.nitro-card-2 h2{
+    color: white;
+      font-family: Ggsans, sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-style: italic;
+}
+.nitro-card-2{
+     background-image: linear-gradient(135deg,#8547c6 25%,#b845c1 62%,#ab5d8a 95%);
+    width: 90%;
+    height: auto;
+    border-radius: 8px;
+
+    position: relative;
+   top:0px;
+   padding: 20px;
+   padding-left: 30px;
+   margin-left: 5%;
+   margin-top: 10px;
+}
+.nitro-card-dv{
+    color: white;
+    font-size: 18px;
+      font-family: Ggsans, sans-serif;
+      margin-top: 10px;    
+     
+}
+
+.nitro-card button{
+    border: 0px;
+    width: 100%;
+    height: 45px;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+   margin-top: 50px;
+}
+.nitro-card-2 button{
+      border: 0px;
+    width: 100%;
+    height: 45px;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+   margin-top: 40px;
+}
+
+.popular-head{
+    color:#1c1d1d;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: -60px;
+    font-size: 28px;
+
+}
+.ni-card{
+     background-color: rgb(246, 245, 244);
+    border: 0px;
+    border-radius: 10px;
+    padding: 30px;
+  margin-bottom: 10px;
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 23px;
+    padding-bottom: 35px;
+
+}
+.ni-card h3{
+    text-align: center;
+   text-rendering: optimizeLegibility;
+     font-family: Ggsans, sans-serif;
+     margin-left: 0px;
+     margin-right: 0px;
+  font-weight:bold;
+ font-size:x-large;
+ font-size: 20px;
+}
+.ni-card img{
+    margin-top: 15px;
+    width: 100%;
+}
+.nitro-row-2{
+     padding-left: 0px;
+    padding-right: 0px; 
+    margin-top: 15px;
+}
+.ni-card-1{
+     background-color: rgb(246, 245, 244);
+    border: 0px;
+    border-radius: 10px;
+    padding: 30px;
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-bottom: 15px;
+}
+.nitro-row-3{
+     padding-left: 0px;
+    padding-right: 0px; 
+    margin-top: 0px; 
+}
+.ni-card-1 h4{
+ text-align: center;
+   text-rendering: optimizeLegibility;
+     font-family: Ggsans, sans-serif;
+  font-weight:bold;
+ font-size:x-large;
+ margin-top: 14px;
+ font-size: 18px;
+
+}
+.ni-card-1 p{
+    text-align: center;
+     font-family: Ggsans, sans-serif;
+     font-size: 13px;
+     margin-left: 5px;
+     margin-right: 5px;
+
+}
+.show-perk{
+    margin-top: 20px;
+    background-color: #1c1d1d;
+    color: white;
+       font-family: Ggsans, sans-serif;
+       border: 0px;
+       border-radius: 30px;
+       padding: 12px 20px ;
+       font-weight: 600;
+       margin-bottom: 20px;
+       transition: 0.4s;
+}
+   
+    .nitro-table{
+        background-color: rgb(246,245,244);
+        padding: 10px;
+         padding-left: 0px;
+        padding-right: 0px; 
+border-radius: 15px;
+height: auto;
+margin-bottom: 10px;
+padding-bottom: 20px;
+
+    }
+    .nitro-row-4{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 40px;
+    }
+   .nitro-table h1{
+    color: #353838;
+    font-weight:bolder;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    font-size: 19px;
+   }
+   .nitro-feat{
+    color: #1c1d1d;
+    font-size: 13px;
+    font-weight: bold;
+
+   }
+   .nitro-basic-pic{
+    width: 30px;
+   
+   }
+    .nitro-pic{
+        width: 30px;
+        margin-top: -4px;
+    }
+    .tbl-content{
+        display: flex;
+       
+    }
+    .content-p{
+       width: 60%;
+       margin-left: 12px;
+       
+    }
+    .content-p-1{
+        width: 15%;
+        text-align: center;
+       ;
+    }
+    .content-p-2{
+         width: 15%;
+        text-align: center;
+        margin-right: 12px;
+      
+    }
+    .design{
+        font-size: 13px;
+        color: #323333;
+    }
+    .design-1{
+        font-size: 9px !important;
+    }
+    
+    .nt-btn{
+        border: 0px;
+        border-radius: 25px;
+      padding: 5px 10px;
+        background-color:#3e4ceb;
+        color: white;
+        font-size: 8px;
+        font-weight: 600;
+        margin-left: -120px;
+        margin-right: 10px;
+    }
+    .ntt{
+        margin-left: -50px;
+    }
+    .ask-head{
+        color: #1c1d1d;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 20px;
+        font-size: 29px;
+        
+    }
+    .nitro-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .nitro-subitem{ 
+         margin: 10px;
+        color: #323333;
+        font-size: 12px;
+        cursor: pointer;
+            font-family: Ggsans, sans-serif;
+    }
+     .nitro-subitem-1{ 
+         margin: 10px;
+        color:#3e4ceb;
+        font-size: 12px;
+        cursor: pointer;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #3e4ceb;
+        font-weight: 600;
+            font-family: Ggsans, sans-serif;
+    }
+
+    .accordn{
+        width: 90%;
+        margin-top: 25px;
+        height: auto;
+        padding: 17px;
+   background-color: rgb(246, 245, 244);
+        border-radius: 10px;
+        font-weight: 600;
+cursor: pointer;
+font-size: 14px;
+    }
+    .accordn-1{
+        width: 90%;
+          margin-top: 25px;
+        height: auto;
+        padding: 17px;
+    background-color: rgb(88, 101, 242);
+        border-radius: 10px;
+        font-weight: 600;
+        color: white;
+cursor: pointer;
+
+    }
+    .acc-content{
+        color: white;
+        font-size: 13px !important;
+        font-weight: 400 !important;
+            font-family: Ggsans, sans-serif;
+    }
+    .nitro-row-5{
+        margin-bottom: 60px;
+    }
+    .nitro-bck{
+        background-image: url('https://assets-global.website-files.com/6257ade…/6347d64…_Group%20482478.svg'), linear-gradient(135deg, #8547c6 10%, #b845c1 50%, #ab5d8a);
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        background-size: cover;
+        object-fit: cover;
+        display: none;
+       
+    }
+    .bck-content{
+        display: flex;
+        /* justify-content: center; */
+         /* align-items: center; */
+        flex-direction: column; 
+    }
+    .bck-content h1{
+        color: white;
+        font-family: Ggsans, sans-serif;
+        font-weight: bold;
+        text-rendering: optimizeLegibility;
+         text-align: center; 
+        margin-top: 40px;
+    }
+    .bck-content button{
+        background-color: white;
+        border: 0px;
+        border-radius: 33px;
+        padding: 9px 25px ;
+        color: black;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+.bck-pic{
+    display: none;
+}
+
+    }
+    @media(min-width:501px) and (max-width:767px){
+
+
+.background-video {
+  position: absolute;
+  top: 44%;
+  left: 24%;
+  width: 166%;
+  height: 100%;
+  object-fit: cover;
+   transform: translate(-50%, -50%); 
+  z-index: -1; 
+
+}
+
+.video-content {
+  position: relative;
+  z-index: 1;
+ }
+.un-head{
+      color: white;
+    font-weight: bold; 
+    font-size: 35px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    margin-top: 240px;
+    text-rendering: optimizeLegibility;
+     margin-left: 10%;
+     text-align: center;
+    margin-right: 10%; 
+}
+.un-para{
+    color: white;
+    font-family: Ggsans, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.un-main{
+    width: auto;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.nitro-card{
+ background-image:  linear-gradient(225deg,#007cc2 20%,#5865f2);
+    width: 90%;
+    height: auto;
+    border-radius: 8px;
+ 
+    position: relative;
+   top: -50px;
+   margin-left: 5%;
+   padding:20px;
+   padding-left: 30px;
+   margin-bottom: 10px;
+}
+.nitro-row{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.nitro-card h2 ,.nitro-card-2 h2{
+    color: white;
+      font-family: Ggsans, sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-style: italic;
+}
+.nitro-card-2{
+     background-image: linear-gradient(135deg,#8547c6 25%,#b845c1 62%,#ab5d8a 95%);
+    width: 90%;
+    height: auto;
+    border-radius: 8px;
+  
+    position: relative;
+   top:-30px;
+   padding: 20px;
+   padding-left: 30px;
+   margin-left: 5%;
+   margin-top: 10px;
+}
+.nitro-card-dv{
+    color: white;
+    font-size: 18px;
+      font-family: Ggsans, sans-serif;
+      margin-top: 10px;    
+     
+}
+
+.nitro-card button{
+    border: 0px;
+    width: 100%;
+    height: 45px;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+   margin-top: 50px;
+}
+.nitro-card-2 button{
+      border: 0px;
+    width: 100%;
+    height: 45px;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+   margin-top: 40px;
+}
+
+.popular-head{
+    color:#1c1d1d;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    font-size: 28px;
+
+}
+.ni-card{
+     background-color: rgb(246, 245, 244);
+    border: 0px;
+    border-radius: 10px;
+    padding: 30px;
+  margin-bottom: 10px;
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 23px;
+    padding-bottom: 35px;
+
+}
+.ni-card h3{
+    text-align: center;
+   text-rendering: optimizeLegibility;
+     font-family: Ggsans, sans-serif;
+     margin-left: 0px;
+     margin-right: 0px;
+  font-weight:bold;
+ font-size:x-large;
+ font-size: 20px;
+}
+.ni-card img{
+    margin-top: 15px;
+    width: 100%;
+}
+.nitro-row-2{
+     padding-left: 0px;
+    padding-right: 0px; 
+    margin-top: 15px;
+}
+.ni-card-1{
+     background-color: rgb(246, 245, 244);
+    border: 0px;
+    border-radius: 10px;
+    padding: 30px;
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-bottom: 15px;
+}
+.nitro-row-3{
+     padding-left: 0px;
+    padding-right: 0px; 
+    margin-top: 0px; 
+}
+.ni-card-1 h4{
+ text-align: center;
+   text-rendering: optimizeLegibility;
+     font-family: Ggsans, sans-serif;
+  font-weight:bold;
+ font-size:x-large;
+ margin-top: 14px;
+ font-size: 18px;
+
+}
+.ni-card-1 p{
+    text-align: center;
+     font-family: Ggsans, sans-serif;
+     font-size: 13px;
+     margin-left: 5px;
+     margin-right: 5px;
+
+}
+.show-perk{
+    margin-top: 20px;
+    background-color: #1c1d1d;
+    color: white;
+       font-family: Ggsans, sans-serif;
+       border: 0px;
+       border-radius: 30px;
+       padding: 12px 20px ;
+       font-weight: 600;
+       margin-bottom: 20px;
+       transition: 0.4s;
+}
+   
+    .nitro-table{
+        background-color: rgb(246,245,244);
+        padding: 10px;
+         padding-left: 0px;
+        padding-right: 0px; 
+border-radius: 15px;
+height: auto;
+margin-bottom: 10px;
+padding-bottom: 20px;
+
+    }
+    .nitro-row-4{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 40px;
+    }
+   .nitro-table h1{
+    color: #353838;
+    font-weight:bolder;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    font-size: 19px;
+   }
+   .nitro-feat{
+    color: #1c1d1d;
+    font-size: 15px;
+    font-weight: bold;
+
+   }
+   .nitro-basic-pic{
+    width: 40px;
+   
+   }
+    .nitro-pic{
+        width: 40px;
+        margin-top: -4px;
+    }
+    .tbl-content{
+        display: flex;
+       
+    }
+    .content-p{
+       width: 60%;
+       margin-left: 17px;
+       
+    }
+    .content-p-1{
+        width: 15%;
+        text-align: center;
+       ;
+    }
+    .content-p-2{
+         width: 15%;
+        text-align: center;
+        margin-right: 17px;
+      
+    }
+    .design{
+        font-size: 14px;
+        color: #323333;
+    }
+    .design-1{
+        font-size: 9px !important;
+    }
+    
+    .nt-btn{
+        border: 0px;
+        border-radius: 25px;
+      padding: 5px 10px;
+        background-color:#3e4ceb;
+        color: white;
+        font-size: 8px;
+        font-weight: 600;
+        margin-left: -50px;
+        margin-right: 10px;
+    }
+    .ntt{
+        margin-left: -50px;
+    }
+    .ask-head{
+        color: #1c1d1d;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 20px;
+        font-size: 29px;
+        
+    }
+    .nitro-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .nitro-subitem{ 
+         margin: 10px;
+        color: #323333;
+        font-size: 12px;
+        cursor: pointer;
+            font-family: Ggsans, sans-serif;
+    }
+     .nitro-subitem-1{ 
+         margin: 10px;
+        color:#3e4ceb;
+        font-size: 12px;
+        cursor: pointer;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #3e4ceb;
+        font-weight: 600;
+            font-family: Ggsans, sans-serif;
+    }
+
+    .accordn{
+        width: 90%;
+        margin-top: 25px;
+        height: auto;
+        padding: 17px;
+   background-color: rgb(246, 245, 244);
+        border-radius: 10px;
+        font-weight: 600;
+cursor: pointer;
+font-size: 14px;
+    }
+    .accordn-1{
+        width: 90%;
+          margin-top: 25px;
+        height: auto;
+        padding: 17px;
+    background-color: rgb(88, 101, 242);
+        border-radius: 10px;
+        font-weight: 600;
+        color: white;
+cursor: pointer;
+
+    }
+    .acc-content{
+        color: white;
+        font-size: 13px !important;
+        font-weight: 400 !important;
+            font-family: Ggsans, sans-serif;
+    }
+    .nitro-row-5{
+        margin-bottom: 60px;
+    }
+    .nitro-bck{
+        background-image: url('https://assets-global.website-files.com/6257ade…/6347d64…_Group%20482478.svg'), linear-gradient(135deg, #8547c6 10%, #b845c1 50%, #ab5d8a);
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        background-size: cover;
+        object-fit: cover;
+        display: none;
+       
+    }
+    .bck-content{
+        display: flex;
+        /* justify-content: center; */
+         /* align-items: center; */
+        flex-direction: column; 
+    }
+    .bck-content h1{
+        color: white;
+        font-family: Ggsans, sans-serif;
+        font-weight: bold;
+        text-rendering: optimizeLegibility;
+         text-align: center; 
+        margin-top: 40px;
+    }
+    .bck-content button{
+        background-color: white;
+        border: 0px;
+        border-radius: 33px;
+        padding: 9px 25px ;
+        color: black;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+.bck-pic{
+    display: none;
+}
+    }
+    @media(min-width:768px) and (max-width:992px){
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.background-video {
+  position: absolute;
+  top: 65%;
+  left: 55%;
+  width: 126%;
+  height: 110%;
+  object-fit: cover;
+  transform: translate(-50%, -60%);
+  z-index: -1; 
+
+}
+
+.video-content {
+  position: relative;
+  z-index: 1;
+ }
+.un-head{
+      color: white;
+    font-weight: bold; 
+    font-size: 35px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    margin-top: 0px;
+    text-rendering: optimizeLegibility;
+    
+}
+.un-para{
+    color: white;
+    font-family: Ggsans, sans-serif;
+    font-size: 19px;
+    margin-top: 14px;
+}
+.un-main{
+    width: 370px;
+    margin-left: 10%;
+    margin-top: 60px;
+   
+}
+.nitro-card{
+ background-image:  linear-gradient(225deg,#007cc2 20%,#5865f2);
+    width: 100%;
+    height: 390px;
+    border-radius: 8px;
+z-index: 0;
+    position: relative;
+   top: -160px;
+   padding: 20px;
+   padding-left: 30px;
+}
+.nitro-row{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.nitro-card h2 ,.nitro-card-2 h2{
+    color: white;
+      font-family: Ggsans, sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-style: italic;
+}
+.nitro-card-2{
+     background-image: linear-gradient(135deg,#8547c6 25%,#b845c1 62%,#ab5d8a 95%);
+    width:100%;
+    height: 390px;
+    border-radius: 8px;
+ z-index: 0;
+    position: relative;
+   top: -160px;
+   padding: 20px;
+   padding-left: 30px;
+}
+.nitro-card-dv{
+    color: white;
+    font-size: 18px;
+      font-family: Ggsans, sans-serif;
+      margin-top: 10px;    
+     
+}
+.nitro-card button{
+    border: 0px;
+    width: 100%;
+    height: 45px;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+   margin-top: 90px;
+}
+.nitro-card-2 button{
+      border: 0px;
+    width: 100%;
+    height: 45px;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+   margin-top: 40px;
+}
+ 
+.popular-head{
+    color:#1c1d1d;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+.ni-card{
+     background-color: rgb(246, 245, 244);
+    border: 0px;
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.ni-card h3{
+    text-align: center;
+   text-rendering: optimizeLegibility;
+     font-family: Ggsans, sans-serif;
+     margin-left: 30px;
+     margin-right: 30px;
+  font-weight:bold;
+ font-size:17px;
+}
+.ni-card img{
+    margin-top: 15px;
+    width: 100%;
+}
+.nitro-row-2{
+     padding-left: 0px;
+    padding-right: 0px; 
+    margin-top: 15px;
+}
+.ni-card-1{
+     background-color: rgb(246, 245, 244);
+    border: 0px;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   margin: 5px;
+}
+.nitro-row-3{
+     padding-left: 0px;
+    padding-right: 0px; 
+    margin-top: 15px; 
+}
+.ni-card-1 h4{
+ text-align: center;
+   text-rendering: optimizeLegibility;
+     font-family: Ggsans, sans-serif;
+  font-weight:bold;
+ font-size:18px;
+ margin-top: 10px;
+}
+.ni-card-1 p{
+    text-align: center;
+     font-family: Ggsans, sans-serif;
+     font-size: 14px;
+     margin-left: 10px;
+     margin-right: 10px;
+
+}
+.show-perk{
+    margin-top: 20px;
+    background-color: #1c1d1d;
+    color: white;
+       font-family: Ggsans, sans-serif;
+       border: 0px;
+       border-radius: 30px;
+       padding: 12px 20px ;
+       font-weight: 600;
+       margin-bottom: 20px;
+       transition: 0.4s;
+}
+   
+    .nitro-table{
+        background-color: rgb(246,245,244);
+        padding: 50px;
+         padding-left: 80px;
+        padding-right: 80px; 
+border-radius: 15px;
+height: auto;
+margin-bottom: 10px;
+    }
+    .nitro-row-4{
+        padding-left: 80px;
+        padding-right: 80px;
+        margin-top: 80px;
+    }
+   .nitro-table h1{
+    color: #353838;
+    font-weight:bolder;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    margin-top: 20px;
+    margin-bottom: 70px;
+   }
+   .nitro-feat{
+    color: #1c1d1d;
+    font-size: 20px;
+    font-weight: bold;
+   }
+   .nitro-basic-pic{
+    width: 80px;
+   
+   }
+    .nitro-pic{
+        width: 80px;
+        margin-top: -4px;
+    }
+    .tbl-content{
+        display: flex;
+        justify-content: space-between;
+    }
+    .content-p{
+       width: 60%;
+    }
+    .content-p-1{
+        width: 15%;
+        text-align: center;
+    }
+    .content-p-2{
+         width: 15%;
+        text-align: center;
+      
+    }
+    .design{
+        font-size: 17px;
+        color: #323333;
+    }.nt-btn{
+        border: 0px;
+        border-radius: 25px;
+        padding: 10px 20px;
+        background-color:#3e4ceb;
+        color: white;
+        font-size: 8px;
+        font-weight: 600;
+        margin-left: -40px;
+    }
+    .ntt{
+        margin-left: -20px;
+    }
+    .ask-head{
+        color: #1c1d1d;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 20px;
+        
+    }
+    .nitro-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .nitro-subitem{ 
+         margin: 15px;
+        color: #323333;
+        font-size: 15px;
+        cursor: pointer;
+            font-family: Ggsans, sans-serif;
+    }
+     .nitro-subitem-1{ 
+         margin: 15px;
+        color:#3e4ceb;
+        font-size: 15px;
+        cursor: pointer;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #3e4ceb;
+        font-weight: 600;
+            font-family: Ggsans, sans-serif;
+    }
+
+    .accordn{
+        width: 80%;
+        margin-top: 25px;
+        height: auto;
+        padding: 25px;
+   background-color: rgb(246, 245, 244);
+        border-radius: 10px;
+        font-weight: 600;
+cursor: pointer;
+font-size: 17px;
+    }
+    .accordn-1{
+        width: 80%;
+          margin-top: 25px;
+        height: auto;
+        padding: 25px;
+    background-color: rgb(88, 101, 242);
+        border-radius: 10px;
+        font-weight: 600;
+        color: white;
+cursor: pointer;
+
+    }
+    .acc-content{
+        color: white;
+        font-size: 15px !important;
+        font-weight: 400 !important;
+            font-family: Ggsans, sans-serif;
+    }
+    .nitro-row-5{
+        margin-bottom: 60px;
+    }
+    .nitro-bck{
+        background-image: url('https://assets-global.website-files.com/6257ade…/6347d64…_Group%20482478.svg'), linear-gradient(135deg, #8547c6 10%, #b845c1 50%, #ab5d8a);
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+       
+    }
+    .bck-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .bck-content h1{
+        color: white;
+        font-family: Ggsans, sans-serif;
+        font-weight: bold;
+        text-rendering: optimizeLegibility;
+        text-align: center;
+    }
+    .bck-content button{
+        background-color: white;
+        border: 0px;
+        border-radius: 33px;
+        padding: 15px 45px ;
+        color: black;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+    }
+    @media(min-width:992px) and (max-width:1200px){
+
+
+        .video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.background-video {
+  position: absolute;
+  top: 65%;
+  left: 55%;
+  width: 126%;
+  height: 110%;
+  object-fit: cover;
+  transform: translate(-50%, -60%);
+  z-index: -1; 
+
+}
+
+.video-content {
+  position: relative;
+  z-index: 1;
+ }
+.un-head{
+      color: white;
+    font-weight: bold; 
+    font-size: 40px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    margin-top: 50px;
+    text-rendering: optimizeLegibility;
+    
+}
+.un-para{
+    color: white;
+    font-family: Ggsans, sans-serif;
+    font-size: 23px;
+    margin-top: 14px;
+}
+.un-main{
+    width: 440px;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+.nitro-card{
+ background-image:  linear-gradient(225deg,#007cc2 20%,#5865f2);
+    width: 100%;
+    height: 390px;
+    border-radius: 8px;
+    z-index: 1;
+    position: relative;
+   top: -200px;
+   padding: 20px;
+   padding-left: 30px;
+}
+.nitro-row{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.nitro-card h2 ,.nitro-card-2 h2{
+    color: white;
+      font-family: Ggsans, sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-style: italic;
+}
+.nitro-card-2{
+     background-image: linear-gradient(135deg,#8547c6 25%,#b845c1 62%,#ab5d8a 95%);
+    width:100%;
+    height: 390px;
+    border-radius: 8px;
+    z-index: 1;
+    position: relative;
+   top: -200px;
+   padding: 20px;
+   padding-left: 30px;
+}
+.nitro-card-dv{
+    color: white;
+    font-size: 18px;
+      font-family: Ggsans, sans-serif;
+      margin-top: 10px;    
+     
+}
+.nitro-card button{
+    border: 0px;
+    width: 100%;
+    height: 45px;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+   margin-top: 90px;
+}
+.nitro-card-2 button{
+      border: 0px;
+    width: 100%;
+    height: 45px;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+   margin-top: 40px;
+}
+ 
+.popular-head{
+    color:#1c1d1d;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+.ni-card{
+     background-color: rgb(246, 245, 244);
+    border: 0px;
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.ni-card h3{
+    text-align: center;
+   text-rendering: optimizeLegibility;
+     font-family: Ggsans, sans-serif;
+     margin-left: 30px;
+     margin-right: 30px;
+  font-weight:bold;
+ font-size:17px;
+}
+.ni-card img{
+    margin-top: 15px;
+    width: 100%;
+}
+.nitro-row-2{
+     padding-left: 0px;
+    padding-right: 0px; 
+    margin-top: 15px;
+}
+.ni-card-1{
+     background-color: rgb(246, 245, 244);
+    border: 0px;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   margin: 5px;
+}
+.nitro-row-3{
+     padding-left: 0px;
+    padding-right: 0px; 
+    margin-top: 15px; 
+}
+.ni-card-1 h4{
+ text-align: center;
+   text-rendering: optimizeLegibility;
+     font-family: Ggsans, sans-serif;
+  font-weight:bold;
+ font-size:18px;
+ margin-top: 10px;
+}
+.ni-card-1 p{
+    text-align: center;
+     font-family: Ggsans, sans-serif;
+     font-size: 14px;
+     margin-left: 10px;
+     margin-right: 10px;
+
+}
+.show-perk{
+    margin-top: 20px;
+    background-color: #1c1d1d;
+    color: white;
+       font-family: Ggsans, sans-serif;
+       border: 0px;
+       border-radius: 30px;
+       padding: 12px 20px ;
+       font-weight: 600;
+       margin-bottom: 20px;
+       transition: 0.4s;
+}
+   
+    .nitro-table{
+        background-color: rgb(246,245,244);
+        padding: 50px;
+         padding-left: 80px;
+        padding-right: 80px; 
+border-radius: 15px;
+height: auto;
+margin-bottom: 10px;
+    }
+    .nitro-row-4{
+        padding-left: 80px;
+        padding-right: 80px;
+        margin-top: 80px;
+    }
+   .nitro-table h1{
+    color: #353838;
+    font-weight:bolder;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    margin-top: 20px;
+    margin-bottom: 70px;
+   }
+   .nitro-feat{
+    color: #1c1d1d;
+    font-size: 20px;
+    font-weight: bold;
+   }
+   .nitro-basic-pic{
+    width: 80px;
+   
+   }
+    .nitro-pic{
+        width: 80px;
+        margin-top: -4px;
+    }
+    .tbl-content{
+        display: flex;
+        justify-content: space-between;
+    }
+    .content-p{
+       width: 60%;
+    }
+    .content-p-1{
+        width: 15%;
+        text-align: center;
+    }
+    .content-p-2{
+         width: 15%;
+        text-align: center;
+      
+    }
+    .design{
+        font-size: 17px;
+        color: #323333;
+    }.nt-btn{
+        border: 0px;
+        border-radius: 25px;
+        padding: 10px 20px;
+        background-color:#3e4ceb;
+        color: white;
+        font-size: 8px;
+        font-weight: 600;
+        margin-left: -40px;
+    }
+    .ntt{
+        margin-left: -20px;
+    }
+    .ask-head{
+        color: #1c1d1d;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 20px;
+        
+    }
+    .nitro-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .nitro-subitem{ 
+         margin: 15px;
+        color: #323333;
+        font-size: 15px;
+        cursor: pointer;
+            font-family: Ggsans, sans-serif;
+    }
+     .nitro-subitem-1{ 
+         margin: 15px;
+        color:#3e4ceb;
+        font-size: 15px;
+        cursor: pointer;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #3e4ceb;
+        font-weight: 600;
+            font-family: Ggsans, sans-serif;
+    }
+
+    .accordn{
+        width: 80%;
+        margin-top: 25px;
+        height: auto;
+        padding: 25px;
+   background-color: rgb(246, 245, 244);
+        border-radius: 10px;
+        font-weight: 600;
+cursor: pointer;
+font-size: 17px;
+    }
+    .accordn-1{
+        width: 80%;
+          margin-top: 25px;
+        height: auto;
+        padding: 25px;
+    background-color: rgb(88, 101, 242);
+        border-radius: 10px;
+        font-weight: 600;
+        color: white;
+cursor: pointer;
+
+    }
+    .acc-content{
+        color: white;
+        font-size: 15px !important;
+        font-weight: 400 !important;
+            font-family: Ggsans, sans-serif;
+    }
+    .nitro-row-5{
+        margin-bottom: 60px;
+    }
+    .nitro-bck{
+        background-image: url('https://assets-global.website-files.com/6257ade…/6347d64…_Group%20482478.svg'), linear-gradient(135deg, #8547c6 10%, #b845c1 50%, #ab5d8a);
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+       
+    }
+    .bck-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .bck-content h1{
+        color: white;
+        font-family: Ggsans, sans-serif;
+        font-weight: bold;
+        text-rendering: optimizeLegibility;
+        text-align: center;
+    }
+    .bck-content button{
+        background-color: white;
+        border: 0px;
+        border-radius: 33px;
+        padding: 15px 45px ;
+        color: black;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+
+
+
+
+    }
+    @media(min-width:1201px) and (max-width:1500px){
+        .nitro-row{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.nitro-card{
+ background-image:  linear-gradient(225deg,#007cc2 20%,#5865f2);
+    width: 100%;
+    height: 390px;
+    border-radius: 8px;
+    z-index: 1;
+    position: relative;
+   top: -160px;
+   padding: 20px;
+   padding-left: 30px;
+}
+
+
+.nitro-card-2{
+     background-image: linear-gradient(135deg,#8547c6 25%,#b845c1 62%,#ab5d8a 95%);
+    width: 100%;
+    height: 390px;
+    border-radius: 8px;
+    z-index: 1;
+    position: relative;
+   top: -160px;
+   padding: 20px;
+   padding-left: 30px;
+}
+
+.nitro-row-2{
+     padding-left: 0px;
+    padding-right: 0px; 
+    margin-top: 15px;
+}
+.ni-card{
+     background-color: rgb(246, 245, 244);
+    border: 0px;
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.ni-card h3{
+    text-align: center;
+   text-rendering: optimizeLegibility;
+     font-family: Ggsans, sans-serif;
+     margin-left: 30px;
+     margin-right: 30px;
+  font-weight:bold;
+ font-size:x-large;
+}
+.ni-card img{
+    margin-top: 15px;
+}
+.nitro-row-2{
+     padding-left: 80px;
+    padding-right: 80px; 
+    margin-top: 15px;
+}
+.ni-card-1{
+     background-color: rgb(246, 245, 244);
+    border: 0px;
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nitro-row-3{
+     padding-left: 187px;
+    padding-right: 187px; 
+    margin-top: 15px; 
+}
+
+
+.ni-card-1 p{
+    text-align: center;
+     font-family: Ggsans, sans-serif;
+     font-size: 13px;
+     margin-left: 10px;
+     margin-right: 10px;
+
+}
+.ni-card-1 h4{
+ text-align: center;
+   text-rendering: optimizeLegibility;
+     font-family: Ggsans, sans-serif;
+  font-weight:bold;
+ font-size:x-large;
+ margin-top: 14px;
+ font-size: 15px;
+
+}
+.nt-btn{
+    margin-left: -50px;
+}
+    }

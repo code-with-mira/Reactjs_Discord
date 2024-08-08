@@ -1,0 +1,343 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-signin{
+    overflow: hidden;
+}
+.support-sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-1{
+    height: auto;
+    width: 24%;
+    border: 6px solid rgb(216, 212, 212);
+    border-radius: 8px;
+    margin-top: 4%;
+   padding: 40px 30px;
+ 
+}
+.sign-1 label{
+    font-size: 11px;
+      font-family: Ggsans, sans-serif;
+      font-weight: 600;
+      margin-bottom: 3px;
+      margin-top: 14px;
+
+}
+.sign-1 p{
+    text-align: center;
+    color: #333232;
+       font-family: Ggsans, sans-serif;
+       font-size: 15px;
+       
+}
+ #signinput{
+    width: 100%;
+    height: 43px;
+    border-radius: 5px;
+    border: 1px solid rgb(96, 96, 96);
+    outline: none;
+    padding-left: 15px;
+}
+
+.signupinput{
+     width: 100%;
+    height: 43px;
+    border-radius: 5px;
+    border: 1px solid rgb(96, 96, 96);
+    outline: none;
+    padding-left: 15px;
+}
+#signinput:focus{
+    border: 3px solid rgb(15, 103, 179);
+}
+.sign-1 .sign-forgot{
+    color: rgb(12, 97, 154) ;
+    text-decoration: underline;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.sign-1 button{
+    width: 100%;
+    height: 42px;
+    background-color: rgb(18, 99, 154);
+    border-radius: 5px;
+    color: white;
+    border: 0px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+ .sign-1 .last-signin{
+    font-size: 12px;
+    color: #454748;
+       font-family: Ggsans, sans-serif;
+       text-align: left;
+
+}
+.sign-1 .last-signin-1{
+    font-size: 12px;
+    color: #454748;
+       font-family: Ggsans, sans-serif; 
+       margin-top: -8px;
+       text-align: left;
+}
+.sign-1 .last-signin span, .sign-1 .last-signin-1 span{
+   color: rgb(18, 99, 154);
+   cursor: pointer;
+   text-decoration: underline;
+
+
+}
+.show-pass-btn{
+    background-color: transparent;
+    position: relative;
+    left: 90%;
+margin-top: -33px;
+    z-index: 2;
+}
+@media(max-width:500px){
+
+
+.support-sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-1{
+    height: auto;
+    width: 80%;
+    border: 6px solid rgb(216, 212, 212);
+    border-radius: 8px;
+    margin-top: 8%;
+   padding: 20px 20px;
+ 
+}
+.sign-1 label{
+    font-size: 11px;
+      font-family: Ggsans, sans-serif;
+      font-weight: 600;
+      margin-bottom: 3px;
+      margin-top: 14px;
+
+}
+.sign-1 p{
+    text-align: center;
+    color: #333232;
+       font-family: Ggsans, sans-serif;
+       font-size: 15px;
+       
+}
+ #signinput{
+    width: 100%;
+    height: 43px;
+    border-radius: 5px;
+    border: 1px solid rgb(96, 96, 96);
+    outline: none;
+    padding-left: 15px;
+}
+
+.signupinput{
+     width: 100%;
+    height: 43px;
+    border-radius: 5px;
+    border: 1px solid rgb(96, 96, 96);
+    outline: none;
+    padding-left: 15px;
+}
+#signinput:focus{
+    border: 3px solid rgb(15, 103, 179);
+}
+.sign-1 .sign-forgot{
+    color: rgb(12, 97, 154) ;
+    text-decoration: underline;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.sign-1 button{
+    width: 100%;
+    height: 42px;
+    background-color: rgb(18, 99, 154);
+    border-radius: 5px;
+    color: white;
+    border: 0px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+ .sign-1 .last-signin{
+    font-size: 12px;
+    color: #454748;
+       font-family: Ggsans, sans-serif;
+       text-align: left;
+
+}
+.sign-1 .last-signin-1{
+    font-size: 12px;
+    color: #454748;
+       font-family: Ggsans, sans-serif; 
+       margin-top: -8px;
+       text-align: left;
+}
+.sign-1 .last-signin span, .sign-1 .last-signin-1 span{
+   color: rgb(18, 99, 154);
+   cursor: pointer;
+   text-decoration: underline;
+
+
+}
+.show-pass-btn{
+    background-color: transparent;
+    position: relative;
+    left: 90%;
+margin-top: -33px;
+    z-index: 2;
+}
+}
+@media(min-width:501px) and (max-width:600px){
+
+
+.support-sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-1{
+    height: auto;
+    width: 60%;
+    border: 6px solid rgb(216, 212, 212);
+    border-radius: 8px;
+    margin-top: 12%;
+   padding: 23px 23px;
+ 
+}
+
+}
+@media(min-width:601px) and (max-width:700px){
+
+
+.support-sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-1{
+    height: auto;
+    width: 60%;
+    border: 6px solid rgb(216, 212, 212);
+    border-radius: 8px;
+    margin-top: 12%;
+   padding: 23px 23px;
+ 
+}
+
+
+}
+@media(min-width:701px) and (max-width:800px){
+
+
+
+.support-sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-1{
+    height: auto;
+    width: 50%;
+    border: 6px solid rgb(216, 212, 212);
+    border-radius: 8px;
+    margin-top: 12%;
+   padding: 23px 26px;
+ 
+}
+
+
+}
+@media(min-width:801px) and (max-width:900px){
+
+
+.support-sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-1{
+    height: auto;
+    width: 45%;
+    border: 6px solid rgb(216, 212, 212);
+    border-radius: 8px;
+    margin-top: 12%;
+   padding: 23px 28px;
+ 
+}
+
+
+
+}
+@media(min-width:901px) and (max-width:1050px){
+
+
+.support-sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-1{
+    height: auto;
+    width: 40%;
+    border: 6px solid rgb(216, 212, 212);
+    border-radius: 8px;
+    margin-top: 12%;
+   padding: 23px 32px;
+ 
+}
+
+
+}
+@media(min-width:1051px) and (max-width:1200px){
+
+.support-sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-1{
+    height: auto;
+    width: 33%;
+    border: 6px solid rgb(216, 212, 212);
+    border-radius: 8px;
+    margin-top: 12%;
+   padding: 23px 32px;
+ 
+}
+
+
+}
+@media(min-width:1201px) and (max-width:1300px){
+
+
+.support-sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-1{
+    height: auto;
+    width: 28%;
+    border: 6px solid rgb(216, 212, 212);
+    border-radius: 8px;
+    margin-top: 12%;
+   padding: 23px 32px;
+ 
+}
+
+
+}

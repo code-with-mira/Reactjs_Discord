@@ -1,0 +1,212 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-ragister{
+    overflow: hidden;
+}
+.ragister-bg{
+  background-image: url('/public/lg-bg1.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.reg-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@keyframes bounce{
+      0%{
+        transform: translateY(-90%);
+      } 
+            100% {
+                transform: translateY(0);
+                 
+               
+            }
+          
+}
+.reg-1{
+    width: 30%;
+    height: auto;
+ background-color:#343535;
+ border-radius: 8px;
+     animation: bounce 0.3s ;
+      margin-top: 4%;
+  
+     padding: 25px;
+}
+.reg-1 h4{
+   color: rgb(222, 217, 217);
+    text-align: center;
+    margin-top: 5px;
+     font-family:  Ggsans, sans-serif;
+     font-weight: 600;
+}
+.reg-1 label{
+     color:rgba(255, 250, 240, 0.919);
+       font-size: 11px;
+       font-family:  Ggsans, sans-serif;
+        text-align: left !important;
+        font-weight: 500;
+        margin-top: 5px;
+}
+.reg-1 .reg-frm{
+     width: 100%;
+    height: 40px;
+    background-color: #181818;
+    border: 0PX;
+    border-radius: 5PX;
+    outline: none;
+    padding: 20PX;
+    color: white;
+        font-family:  Ggsans, sans-serif;
+}
+.reg-1 .reg-frm-1{
+        width: 120px;
+    height: 40px;
+    background-color: #181818;
+    border: 0PX;
+    border-radius: 5PX;
+    outline: none;
+   text-align: center;
+ color:rgba(216, 216, 215, 0.919);
+    font-family:  Ggsans, sans-serif;
+    margin: 3px;
+    font-size: 14px;
+}
+.checkbox-container {
+  display: inline-block;
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color:transparent;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.checkbox-container input:checked ~ .checkmark {
+  background-color: #5865f2;
+}
+
+/* Add a tick mark when checked */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkbox-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the tick mark */
+.checkbox-container .checkmark:after {
+  left: 7px;
+  top: 3px;
+  width: 6px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+.checkbox-container p{
+    color: #cbcbcbd2;
+       font-family:  Ggsans, sans-serif;
+       margin-left: 10px;
+}
+.reg-1 button{
+      width: 100%;
+    height: 40px;
+    margin-top: 0px;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #5865f2;
+        font-family:  Ggsans, sans-serif;
+        font-weight: 600;
+}
+.last-reg{
+
+    color: #cbcbcbd2;
+       font-family:  Ggsans, sans-serif;
+       margin-left: 10px; 
+       font-size: 12px;
+       margin-top: 10px;
+}
+.last-reg span{
+      color: rgb(58, 133, 214);
+    font-size: 11px;
+     font-family:  Ggsans, sans-serif;
+    
+     margin-top: 5px;
+     cursor: pointer;
+}
+.last-reg span:hover{
+    text-decoration: underline;
+}
+.already{
+    color: rgb(58, 133, 214);
+    font-size: 12px;
+     font-family:  Ggsans, sans-serif;
+     font-weight: 600;
+     margin-top: 5px;
+     cursor: pointer;
+}
+.already:hover{
+    text-decoration: underline;
+}
+@media(max-width:600px){
+
+.reg-1{
+    width: 80%;
+    height: auto;
+ background-color:#343535;
+ border-radius: 8px;
+     animation: bounce 0.3s ;
+     margin-top: 0px;
+     padding: 25px;
+}
+
+
+}
+@media(min-width:601px) and (max-width:800px){
+    .reg-1{
+    width: 60%;
+    height: auto;
+ background-color:#343535;
+ border-radius: 8px;
+     animation: bounce 0.3s ;
+     margin-top: 0px;
+     padding: 25px;
+}
+
+}
+@media (min-width:801px) and (max-width:1250px){
+      .reg-1{
+    width: 40%;
+    height: auto;
+ background-color:#343535;
+ border-radius: 8px;
+     animation: bounce 0.3s ;
+     margin-top: 0px;
+     padding: 25px;
+}
+}

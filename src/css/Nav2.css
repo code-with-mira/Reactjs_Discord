@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-nav-1{
+    display: flex;
+    height: 60px;
+    background-color: white;
+    align-items: center;
+    font-family: Ggsans, sans-serif;
+    justify-content: space-around;
+}
+.mn-lg{
+    position: relative;
+}
+.main-language{
+    background-color: white;
+    width: 200px;
+    height: auto;
+    padding: 15px;
+   position:absolute;
+     margin-top: 10px;
+     z-index: 3;
+     border: 1px solid rgb(234, 231, 231);
+}
+.main-language p{
+     color:#373b3d;
+        font-family: Ggsans, sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+    cursor: pointer;
+
+}
+.main-nav-1 h5{
+    color: #5865f2;
+    font-weight: bold;
+    cursor: pointer;
+        font-family: Ggsans, sans-serif;
+}
+.main-nav-2{
+    display: none;
+}
+  .lnk-1{
+    color: rgb(60, 92, 237);
+    font-weight: 600;
+    font-size: 14.5px;
+}
+.sign-nav-1{
+    display: none;
+}
+
+.lnk-1:hover{
+     color: rgb(60, 92, 237);
+text-decoration: underline;
+}
+.sign-btn{
+    background-color: white;
+    color:rgb(60, 92, 237);
+    border: 0px;
+   font-size: 14px;
+   font-weight: 600;
+   
+}
+.log-btn:hover{
+     color: rgb(50, 29, 238);
+}
+.bars{
+    display: none;
+    color: blue;
+}
+.logo{
+   color: white;
+   font-weight: bolder;
+   font-size: 23px;
+    cursor: pointer;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.active-link {
+  color: #ff0000; 
+}
+.discord-black{
+    width: 120px; 
+}
+
+  .sm-link{
+    color:#373b3d;
+font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Ggsans, sans-serif;
+    
+}
+.sm-nav-btn{
+    width: 100%;
+    border: 0px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    background-color: #5865f2;
+    height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+}
+
+
+
+@media(max-width:500px){
+
+.main-nav-1 ul{
+    display: none;
+}
+.main-nav-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 8%;
+}
+.nav-drawer-1{
+
+    margin-top: 15PX;
+}
+.main-nav-2 ul li{
+    list-style: none;
+    font-weight: 600;
+    margin: 13px;
+    text-decoration: none;
+}
+
+.main-nav-1 ul li:nth-child(4){
+    display: none;
+}
+
+.main-language{
+    background-color: white;
+    width: 200px;
+    height: auto;
+    padding: 15px;
+   position:absolute;
+     margin-top: 10px;
+     margin-left: -25px;
+     z-index: 3;
+     border: 1px solid rgb(234, 231, 231);
+}
+
+
+.bars{
+    display: block;
+    color: blue;
+    margin-left: 0px;
+    margin-top: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 14px;
+}
+
+
+.sign-btn{
+    background-color: white;
+      color:rgb(60, 92, 237);
+    border: 0px;
+   font-size: 14px;
+   font-weight: bold;
+   margin-top: 3px;
+    font-family: Ggsans, sans-serif;
+ 
+}
+.sign-nav-1{
+    display: flex;
+}
+
+
+}
+
+
+
+
+
+@media(min-width:501px) and (max-width:992px){
+.main-nav-1 ul{
+    display: none;
+}
+.main-nav-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 8%;
+}
+.nav-drawer-1{
+
+    margin-top: 15PX;
+}
+.main-nav-2 ul li{
+    list-style: none;
+    font-weight: 600;
+    margin: 13px;
+    text-decoration: none;
+}
+
+.main-nav-1 ul li:nth-child(4){
+    display: none;
+}
+
+.main-language{
+    background-color: white;
+    width: 200px;
+    height: auto;
+    padding: 15px;
+   position:absolute;
+     margin-top: 10px;
+     z-index: 3;
+     border: 1px solid rgb(234, 231, 231);
+}
+
+
+.bars{
+    display: block;
+    color: blue;
+    margin-left: 0px;
+    margin-top: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 14px;
+}
+
+
+.sign-btn{
+    background-color: white;
+      color:rgb(60, 92, 237);
+    border: 0px;
+   font-size: 14px;
+   font-weight: bold;
+   margin-top: 3px;
+    font-family: Ggsans, sans-serif;
+ 
+}
+.sign-nav-1{
+    display: flex;
+}
+
+}

@@ -1,0 +1,385 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-signup{
+    overflow: hidden;
+}
+
+.support-signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-2 .second-signup{
+     text-align: center;
+    color: #525151;
+       font-family: Ggsans, sans-serif;
+       font-size: 13px;
+}
+.sign-2{
+    height: auto;
+    width: 24%;
+    border: 6px solid rgb(216, 212, 212);
+    border-radius: 8px;
+    margin-top: 6%;
+   padding: 40px 30px;
+ 
+}
+.sign-2 label{
+    font-size: 11px;
+      font-family: Ggsans, sans-serif;
+      font-weight: 600;
+      margin-bottom: 3px;
+      margin-top: 14px;
+
+}
+.sign-2 p{
+    text-align: center;
+    color: #333232;
+       font-family: Ggsans, sans-serif;
+       font-size: 15px;
+       
+}
+ 
+.signup-input{
+     width: 100%;
+    height: 43px;
+    border-radius: 5px;
+    border: 1px solid rgb(96, 96, 96);
+    outline: none;
+    padding-left: 15px;
+}
+.signup-input:focus{
+    border: 3px solid rgb(15, 103, 179);
+}
+.sign-2 .sign-forgot{
+    color: rgb(12, 97, 154) ;
+    text-decoration: underline;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.sign-2 button{
+    width: 100%;
+    height: 42px;
+    background-color: rgb(18, 99, 154);
+    border-radius: 5px;
+    color: white;
+    border: 0px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+ .sign-2 .last-signup{
+    font-size: 12px;
+    color: #454748;
+       font-family: Ggsans, sans-serif;
+       text-align: right;
+       cursor: pointer;
+       margin-top: -15px;
+
+}
+.sign-2 .last-signup:hover{
+    text-decoration: underline;
+}
+.sign-2 .last-signin-1{
+    font-size: 12px;
+    color: #454748;
+       font-family: Ggsans, sans-serif; 
+       margin-top: -8px;
+       text-align: left;
+}
+.sign-2 .last-signin span, .sign-2 .last-signin-1 span{
+   color: rgb(18, 99, 154);
+   cursor: pointer;
+   text-decoration: underline;
+
+
+}
+@media(max-width:500px){
+.sign-2 .second-signup{
+     text-align: center;
+    color: #525151;
+       font-family: Ggsans, sans-serif;
+       font-size: 11px;
+}
+.sign-2{
+    height: auto;
+    width: 90%;
+    border: 6px solid rgb(216, 212, 212);
+    border-radius: 8px;
+    margin-top: 10%;
+   padding: 20px 20px;
+ 
+}
+.sign-2 label{
+    font-size: 11px;
+      font-family: Ggsans, sans-serif;
+      font-weight: 600;
+      margin-bottom: 3px;
+      margin-top: 14px;
+
+}
+.sign-2 p{
+    text-align: center;
+    color: #333232;
+       font-family: Ggsans, sans-serif;
+       font-size: 14px;
+       
+}
+ 
+
+ 
+}
+@media(min-width:501px)and (max-width:600px){
+
+
+.sign-2 .second-signup{
+     text-align: center;
+    color: #525151;
+       font-family: Ggsans, sans-serif;
+       font-size: 11px;
+}
+.sign-2{
+    height: auto;
+    width: 70%;
+    border: 6px solid rgb(216, 212, 212);
+    border-radius: 8px;
+    margin-top: 10%;
+   padding: 24px 24px;
+ 
+}
+.sign-2 label{
+    font-size: 11px;
+      font-family: Ggsans, sans-serif;
+      font-weight: 600;
+      margin-bottom: 3px;
+      margin-top: 14px;
+
+}
+.sign-2 p{
+    text-align: center;
+    color: #333232;
+       font-family: Ggsans, sans-serif;
+       font-size: 14px;
+       
+}
+}
+@media(min-width:601px) and (max-width:700px){
+
+
+.sign-2 .second-signup{
+     text-align: center;
+    color: #525151;
+       font-family: Ggsans, sans-serif;
+       font-size: 12px;
+}
+.sign-2{
+    height: auto;
+    width:60%;
+    border: 6px solid rgb(216, 212, 212);
+    border-radius: 8px;
+    margin-top: 10%;
+   padding: 24px 29px;
+ 
+}
+.sign-2 label{
+    font-size: 11px;
+      font-family: Ggsans, sans-serif;
+      font-weight: 600;
+      margin-bottom: 3px;
+      margin-top: 14px;
+
+}
+.sign-2 p{
+    text-align: center;
+    color: #333232;
+       font-family: Ggsans, sans-serif;
+       font-size: 16px;
+       
+}
+
+
+}
+@media(min-width:701px)and (max-width:800px){
+
+.sign-2 .second-signup{
+     text-align: center;
+    color: #525151;
+       font-family: Ggsans, sans-serif;
+       font-size: 12px;
+}
+.sign-2{
+    height: auto;
+    width:50%;
+    border: 6px solid rgb(216, 212, 212);
+    border-radius: 8px;
+    margin-top: 10%;
+   padding: 24px 29px;
+ 
+}
+.sign-2 label{
+    font-size: 11px;
+      font-family: Ggsans, sans-serif;
+      font-weight: 600;
+      margin-bottom: 3px;
+      margin-top: 14px;
+
+}
+.sign-2 p{
+    text-align: center;
+    color: #333232;
+       font-family: Ggsans, sans-serif;
+       font-size: 16px;
+       
+}
+
+
+
+}
+@media(min-width:801px) and (max-width:900px){
+
+
+.sign-2 .second-signup{
+     text-align: center;
+    color: #525151;
+       font-family: Ggsans, sans-serif;
+       font-size: 13px;
+}
+.sign-2{
+    height: auto;
+    width:45%;
+    border: 6px solid rgb(216, 212, 212);
+    border-radius: 8px;
+    margin-top: 10%;
+   padding: 24px 29px;
+ 
+}
+.sign-2 label{
+    font-size: 11px;
+      font-family: Ggsans, sans-serif;
+      font-weight: 600;
+      margin-bottom: 3px;
+      margin-top: 14px;
+
+}
+.sign-2 p{
+    text-align: center;
+    color: #333232;
+       font-family: Ggsans, sans-serif;
+       font-size: 17px;
+       
+}
+
+}
+@media(min-width:901px) and (max-width:1000px){
+
+
+.sign-2 .second-signup{
+     text-align: center;
+    color: #525151;
+       font-family: Ggsans, sans-serif;
+       font-size: 13px;
+}
+.sign-2{
+    height: auto;
+    width:40%;
+    border: 6px solid rgb(216, 212, 212);
+    border-radius: 8px;
+    margin-top: 10%;
+   padding: 24px 29px;
+ 
+}
+.sign-2 label{
+    font-size: 11px;
+      font-family: Ggsans, sans-serif;
+      font-weight: 600;
+      margin-bottom: 3px;
+      margin-top: 14px;
+
+}
+.sign-2 p{
+    text-align: center;
+    color: #333232;
+       font-family: Ggsans, sans-serif;
+       font-size: 17px;
+       
+}
+
+}
+@media(min-width:1001px) and (max-width:1200px){
+
+.sign-2 .second-signup{
+     text-align: center;
+    color: #525151;
+       font-family: Ggsans, sans-serif;
+       font-size: 14px;
+}
+.sign-2{
+    height: auto;
+    width:35%;
+    border: 6px solid rgb(216, 212, 212);
+    border-radius: 8px;
+    margin-top: 10%;
+   padding: 24px 29px;
+ 
+}
+.sign-2 label{
+    font-size: 11px;
+      font-family: Ggsans, sans-serif;
+      font-weight: 600;
+      margin-bottom: 3px;
+      margin-top: 14px;
+
+}
+.sign-2 p{
+    text-align: center;
+    color: #333232;
+       font-family: Ggsans, sans-serif;
+       font-size: 18px;
+       
+}
+
+
+
+}
+@media(min-width:1201px) and (max-width:1300px){
+
+
+
+.sign-2 .second-signup{
+     text-align: center;
+    color: #525151;
+       font-family: Ggsans, sans-serif;
+       font-size: 14px;
+}
+.sign-2{
+    height: auto;
+    width:30%;
+    border: 6px solid rgb(216, 212, 212);
+    border-radius: 8px;
+    margin-top: 10%;
+   padding: 24px 29px;
+ 
+}
+.sign-2 label{
+    font-size: 11px;
+      font-family: Ggsans, sans-serif;
+      font-weight: 600;
+      margin-bottom: 3px;
+      margin-top: 14px;
+
+}
+.sign-2 p{
+    text-align: center;
+    color: #333232;
+       font-family: Ggsans, sans-serif;
+       font-size: 18px;
+       
+
+
+}
+}

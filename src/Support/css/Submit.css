@@ -1,0 +1,389 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-submit{
+    overflow:hidden;
+}
+.sb-hr{
+    color: rgb(203, 197, 197);
+    margin-left: 220px;
+    margin-right: 220px;
+}
+.submit-hd{
+    margin-top: 15px;
+    color: #393a3a;
+}
+.submit-p{
+     margin-top: 25px;
+    color: #2d2d2d;
+    font-weight: 600;
+    font-size: 14px;
+    cursor:default;
+}
+.submit-select{
+    width: 70%;
+    height: 38px;
+    border: 1px solid rgb(232, 228, 228);
+    font-size: 14px;
+    font-weight: 500;
+      font-family: Ggsans, sans-serif;
+      padding: 10px;
+
+}
+
+.submit-help{
+    margin-top: 10px;
+}
+
+.submit-help p{
+   font-family: Ggsans, sans-serif;
+   font-size: 13px;  
+   color: #2d2d2d;
+   font-weight: 400;
+   width: 70%;
+   margin-top: 5px;
+}
+.submit-help span{
+    font-weight: 600;
+   
+}
+
+.file-upload-container {
+  position: relative;
+  width: 70%;
+  max-width: 600px;
+  margin-top: 10px;
+  height: 50px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.file-upload-container:hover {
+  border-color: #aaa;
+}
+
+.file-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.file-label {
+  font-size: 16px;
+  color: #666;
+}
+.file-label span{
+    color: rgb(45, 75, 208);
+}
+ .help-frm label{
+   
+    color: #2d2d2d;
+    font-weight: 600;
+    font-size: 14px;   
+    margin-top: 15px;
+  
+
+}
+.submit-mail{
+    width: 70%;
+    height: 40px;
+      border: 1px solid #ccc;
+      outline: none;
+      margin-top: 10px;
+      border-radius: 5px;
+      padding-left: 20px;
+}
+.submit-text{
+     width: 70%;
+    height: 90px;
+      border: 1px solid #ccc;
+      outline: none;
+      margin-top: 10px;
+      border-radius: 5px;
+      padding-left: 20px;
+      padding-top: 10px;
+}
+.dark-submit{
+    background-color: #171717;
+    color: white;
+    border-radius: 3px;
+    border: 0px;
+    padding: 8px 55px ;
+    margin-left: 48%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.dark-submit:hover{
+    background-color: black;
+}
+@media(max-width:500px){
+
+
+.sb-hr{
+    color: rgb(203, 197, 197);
+    margin-left: 220px;
+    margin-right: 220px;
+}
+.submit-hd{
+    margin-top: 15px;
+    color: #393a3a;
+}
+.submit-p{
+     margin-top: 25px;
+    color: #2d2d2d;
+    font-weight: 600;
+    font-size: 14px;
+    cursor:default;
+}
+.submit-select{
+    width: 60%;
+    height: 37px;
+    border: 1px solid rgb(232, 228, 228);
+    font-size: 14px;
+    font-weight: 500;
+      font-family: Ggsans, sans-serif;
+      padding: 10px;
+
+}
+.submit-help{
+    margin-top: 10px;
+}
+
+.submit-help p{
+   font-family: Ggsans, sans-serif;
+   font-size: 14px;  
+   color: #2d2d2d;
+   font-weight: 400;
+   width: 80%;
+   margin-top: 7px;
+}
+.submit-help span{
+    font-weight: 600;
+   
+}
+
+.file-upload-container {
+  position: relative;
+  width: 70%;
+  max-width: 600px;
+  margin-top: 10px;
+  height: 50px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.file-upload-container:hover {
+  border-color: #aaa;
+}
+
+.file-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.file-label {
+  font-size: 16px;
+  color: #666;
+}
+.file-label span{
+    color: rgb(45, 75, 208);
+}
+ .help-frm label{
+   
+    color: #2d2d2d;
+    font-weight: 600;
+    font-size: 14px;   
+    margin-top: 15px;
+    margin-right: 10%;
+  
+
+}
+.submit-mail{
+    width: 70%;
+    height: 40px;
+      border: 1px solid #ccc;
+      outline: none;
+      margin-top: 10px;
+      border-radius: 5px;
+      padding-left: 20px;
+}
+.submit-text{
+     width: 70%;
+    height: 90px;
+      border: 1px solid #ccc;
+      outline: none;
+      margin-top: 10px;
+      border-radius: 5px;
+      padding-left: 20px;
+      padding-top: 10px;
+}
+.dark-submit{
+    background-color: #171717;
+    color: white;
+    border-radius: 3px;
+    border: 0px;
+    padding: 8px 55px ;
+    margin-left: 48%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.dark-submit:hover{
+    background-color: black;
+}
+
+
+.submit-first-row{
+  padding-left: 6%;
+}
+
+
+}
+@media(min-width:501px) and (max-width:992px){
+
+
+.sb-hr{
+    color: rgb(203, 197, 197);
+    margin-left: 220px;
+    margin-right: 220px;
+}
+.submit-hd{
+    margin-top: 15px;
+    color: #393a3a;
+}
+.submit-p{
+     margin-top: 25px;
+    color: #2d2d2d;
+    font-weight: 600;
+    font-size: 14px;
+    cursor:default;
+}
+.submit-select{
+    width: 70%;
+    height: 37px;
+    border: 1px solid rgb(232, 228, 228);
+    font-size: 14px;
+    font-weight: 500;
+      font-family: Ggsans, sans-serif;
+      padding: 10px;
+
+}
+.submit-help{
+    margin-top: 10px;
+}
+
+.submit-help p{
+   font-family: Ggsans, sans-serif;
+   font-size: 14px;  
+   color: #2d2d2d;
+   font-weight: 400;
+   width: 80%;
+   margin-top: 7px;
+}
+.submit-help span{
+    font-weight: 600;
+   
+}
+
+.file-upload-container {
+  position: relative;
+  width: 70%;
+  max-width: 600px;
+  margin-top: 10px;
+  height: 50px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.file-upload-container:hover {
+  border-color: #aaa;
+}
+
+.file-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.file-label {
+  font-size: 16px;
+  color: #666;
+}
+.file-label span{
+    color: rgb(45, 75, 208);
+}
+ .help-frm label{
+   
+    color: #2d2d2d;
+    font-weight: 600;
+    font-size: 14px;   
+    margin-top: 15px;
+    margin-right: 10%;
+  
+
+}
+.submit-mail{
+    width: 70%;
+    height: 40px;
+      border: 1px solid #ccc;
+      outline: none;
+      margin-top: 10px;
+      border-radius: 5px;
+      padding-left: 20px;
+}
+.submit-text{
+     width: 70%;
+    height: 90px;
+      border: 1px solid #ccc;
+      outline: none;
+      margin-top: 10px;
+      border-radius: 5px;
+      padding-left: 20px;
+      padding-top: 10px;
+}
+.dark-submit{
+    background-color: #171717;
+    color: white;
+    border-radius: 3px;
+    border: 0px;
+    padding: 8px 55px ;
+    margin-left: 48%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.dark-submit:hover{
+    background-color: black;
+}
+
+
+.submit-first-row{
+  padding-left: 6%;
+}
+
+
+}

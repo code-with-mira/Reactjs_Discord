@@ -1,0 +1,361 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-nav{
+    display: flex;
+    height: 80px;
+    background-color: transparent;
+    align-items: center;
+    font-family: Ggsans, sans-serif;
+    justify-content: space-around;
+}
+.main-nv-pic{
+    width: 120px;
+    cursor: pointer;
+}
+.nav-link{
+    color: white;
+    font-weight: 600;
+    font-size: 14.5px;
+}
+
+.nav-link:hover{
+    color: white;
+text-decoration: underline;
+}
+.log-btn{
+    background-color: white;
+    color: black;
+    border: 0px;
+   border-radius:30px;
+   padding: 8px 15px;
+   font-size: 14px;
+   font-weight: 600;
+}
+.log-btn:hover{
+     color: rgb(50, 29, 238);
+}
+.brr{
+    display: none;
+    color: white;
+}
+
+
+.discord-black{
+    width: 120px; 
+}
+.headerd{
+    padding: 20px ;
+}
+.nav-drawer{
+ border-top-left-radius: 12px;
+ border-bottom-left-radius: 12px;
+
+}
+.headerd ul{
+    list-style: none;
+}
+.headerd ul li{
+    margin-top: 5px;
+}
+.headerd  .sm-link{
+    color:#373b3d;
+font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+ 
+    font-family: Ggsans, sans-serif;
+    
+}
+.sm-nav-btn{
+    width: 100%;
+    border: 0px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    background-color: #5865f2;
+    height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+}
+.headerd-1{
+    display: none;
+}
+.interd{
+    padding: 20px;
+    font-family: Ggsans, sans-serif;
+     color:#373b3d;
+     overflow:auto;
+     height: 100%;
+     overflow-y: scroll;
+     position: relative;
+     z-index: 99 !important;
+}
+.interd-1{
+    display: none;
+}
+.interd p{
+    font-size: 13px;
+    margin-left: 15px;
+    font-weight: 600;
+}
+.interd h5{
+    font-size: 18px;
+}
+.drawer-link{
+    font-size: 10px !important;
+    color: rgb(151, 146, 146);
+    font-weight: 200 !important;
+      font-family: Ggsans, sans-serif;
+      margin-bottom: 9px;
+      
+}
+@media(max-width:475px){
+.main-nav ul{
+    display: none;
+}
+
+.brr{
+    display: block;
+    color: white;
+    margin-left: 20px;
+    margin-top: 7px;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.main-nav{
+    display: flex;
+    height: 80px;
+    background-color: transparent;
+    align-items: center;
+    font-family: Ggsans, sans-serif;
+    justify-content:space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.log-btn{
+    background-color: white;
+    color: black;
+    border: 0px;
+   border-radius:30px;
+   padding: 9px 12px;
+   font-size: 12px;
+   font-weight: bold;
+   margin-top: 3px;
+    font-family: Ggsans, sans-serif;
+    display: none;
+ 
+}
+.logo{
+    font-size: 23px;
+}
+
+.discord-black{
+    width: 120px; 
+}
+.headerd{
+    padding: 20px ;
+}
+.nav-drawer{
+ border-top-left-radius: 12px;
+ border-bottom-left-radius: 12px;
+
+}
+.headerd ul{
+    list-style: none;
+}
+.headerd ul li{
+    margin-top: 5px;
+}
+.headerd  .sm-link{
+    color:#373b3d;
+font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+ 
+    font-family: Ggsans, sans-serif;
+    
+}
+.sm-nav-btn{
+    width: 100%;
+    border: 0px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    background-color: #5865f2;
+    height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+}
+.headerd-1{
+    display: none;
+}
+.interd{
+    padding: 20px;
+    font-family: Ggsans, sans-serif;
+     color:#373b3d;
+     overflow:auto;
+     height: 100%;
+     overflow-y: scroll;
+     position: relative;
+     z-index: 99 !important;
+}
+.interd-1{
+    display: none;
+}
+.interd p{
+    font-size: 13px;
+    margin-left: 15px;
+    font-weight: 600;
+    
+}
+.interd h5{
+    font-size: 18px;
+}
+.drawer-link{
+    font-size: 10px !important;
+    color: rgb(151, 146, 146);
+    font-weight: 200 !important;
+      font-family: Ggsans, sans-serif;
+      margin-bottom: 9px;
+      
+}
+
+
+
+}
+@media(min-width:476px) and (max-width:992px){
+
+
+
+.main-nav ul{
+    display: none;
+}
+
+.brr{
+    display: block;
+    color: white;
+    margin-left: 20px;
+    margin-top: 7px;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.main-nav{
+    display: flex;
+    height: 80px;
+    background-color: transparent;
+    align-items: center;
+    font-family: Ggsans, sans-serif;
+    justify-content:space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.log-btn{
+    background-color: white;
+    color: black;
+    border: 0px;
+   border-radius:30px;
+   padding: 5px 10px !important;
+   font-size: 10px !important;
+   font-weight: bold;
+   margin-top: 5px;
+    font-family: Ggsans, sans-serif;
+    display: block;
+ 
+}
+.logo{
+    font-size: 23px;
+}
+
+.discord-black{
+    width: 120px; 
+}
+.headerd{
+    padding: 20px ;
+}
+.nav-drawer{
+ border-top-left-radius: 12px;
+ border-bottom-left-radius: 12px;
+
+}
+.headerd ul{
+    list-style: none;
+}
+.headerd ul li{
+    margin-top: 5px;
+}
+.headerd  .sm-link{
+    color:#373b3d;
+font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+ 
+    font-family: Ggsans, sans-serif;
+    
+}
+.sm-nav-btn{
+    width: 100%;
+    border: 0px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    background-color: #5865f2;
+    height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+}
+.headerd-1{
+    display: none;
+}
+.interd{
+    padding: 20px;
+    font-family: Ggsans, sans-serif;
+     color:#373b3d;
+     overflow:auto;
+     height: 100%;
+     overflow-y: scroll;
+     position: relative;
+     z-index: 99 !important;
+}
+.interd-1{
+    display: none;
+}
+.interd p{
+    font-size: 13px;
+    margin-left: 15px;
+    font-weight: 600;
+    
+}
+.interd h5{
+    font-size: 18px;
+}
+.drawer-link{
+    font-size: 10px !important;
+    color: rgb(151, 146, 146);
+    font-weight: 200 !important;
+      font-family: Ggsans, sans-serif;
+      margin-bottom: 9px;
+      
+}
+
+
+
+
+
+
+
+
+}
