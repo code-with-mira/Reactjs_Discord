@@ -11,7 +11,7 @@ function Footer() {
   const [languages, setLanguages] = useState("");
   const logout = () => {
     localStorage.clear();
-   window.location.reload();
+  navigate('/register')
   };
 
 
