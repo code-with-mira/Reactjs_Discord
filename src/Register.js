@@ -30,7 +30,7 @@ function Register() {
         transition: Bounce,
       });
     } else {
-      const result = await fetch("https://discordnode.onrender.com/register", {
+      const result = await fetch("https://discord-backend-nodeapi.onrender.com/register", {
         method: "post",
         body: JSON.stringify({name:name, email: email, password: password }),
         headers: {
