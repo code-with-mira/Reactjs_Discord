@@ -37,7 +37,7 @@ function Login() {
     setEmail("");
     setPassword("");
 
-    const result = await fetch("https://discordnode.onrender.com/login", {
+    const result = await fetch("https://discord-backend-nodeapi.onrender.com/login", {
       method: "post",
       body: JSON.stringify({ email: email, password: password }),
       headers: {
